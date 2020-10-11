@@ -111,7 +111,7 @@
                 ("wake", Expression<MethodOrOperator> @:13862 op:22,dt:2,nt:9,next:13863,str:1071,d0:0,d1:0;
                     ("enc_qz_ext_b", Expression<ScriptReference> @:13863 op:10,dt:10,nt:9,next:65535,str:26949,d0:280,d1:65535;)))
             (____, Scope<Void> @:13864 op:21,dt:4,nt:8,next:13881,str:33775,d0:13865,d1:39325;
-                ("sleep_until", Expression<MethodOrOperator> @:13865 op:21,dt:2,nt:9,next:13866,str:236,d0:0,d1:0;
+                ("sleep_until", Expression<MethodOrOperator> @:13656 op:21,dt:2,nt:9,next:13866,str:236,d0:0,d1:0;
                     (____, Scope<Boolean> @:13866 op:33,dt:5,nt:8,next:65535,str:33788,d0:13867,d1:39327;
                         ("volume_test_objects", Expression<MethodOrOperator> @:13867 op:33,dt:2,nt:9,next:13868,str:11117,d0:0,d1:0;
                             ("tv_key_ride", Expression<Trigger> @:13868 op:13,dt:13,nt:9,next:13869,str:28037,d0:14,d1:0;
@@ -127,6 +127,15 @@
             //                ("tv_x07", Expression<Trigger> @:13878 op:13,dt:13,nt:9,next:13879,str:28062,d0:15,d1:0;
             //                    (____, Scope<List> @:13879 op:28,dt:31,nt:8,next:65535,str:33996,d0:13880,d1:39340;
             //                        ("players", Expression<MethodOrOperator> @:13880 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
+            // Pull trigger test from enc_key_ride
+            (____, Scope<Void> @:13656 op:21,dt:4,nt:8,next:13881,str:31633,d0:13657,d1:39117;
+                ("sleep_until", Expression<MethodOrOperator> @:13657 op:21,dt:2,nt:9,next:13658,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13658 op:33,dt:5,nt:8,next:65535,str:31646,d0:13659,d1:39119;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13659 op:33,dt:2,nt:9,next:13660,str:11117,d0:0,d1:0;
+                            ("tv_key_ride_cinematic", Expression<Trigger> @:13660 op:13,dt:13,nt:9,next:13661,str:27491,d0:17,d1:0;
+                                (____, Scope<List> @:13661 op:28,dt:31,nt:8,next:65535,str:31689,d0:13662,d1:39122;
+                                    ("players", Expression<MethodOrOperator> @:13662 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
+
             ("cinematic_fade_to_white", ScriptInvocation<Void> @:13881 op:9,dt:4,nt:10,next:13883,str:34115,d0:13882,d1:39342;
                 ("cinematic_fade_to_white", Expression<MethodOrOperator> @:13882 op:9,dt:2,nt:9,next:65535,str:27513,d0:0,d1:0;))
             (____, Scope<Void> @:13883 op:299,dt:4,nt:8,next:13885,str:34143,d0:13884,d1:39344;

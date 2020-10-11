@@ -3,7 +3,7 @@
     (____, Scope<Void> @:17878 op:0,dt:4,nt:8,next:65535,str:43613,d0:17879,d1:43339;
         ("begin", Expression<MethodOrOperator> @:17879 op:0,dt:2,nt:9,next:17673,str:1,d0:0,d1:0;
             // Bypass begin_random, makes spawns deterministic
-            (____, Scope<Void> @:17673 op:2,dt:4,nt:8,next:17698,str:43657,d0:17675,d1:43135;
+            (____, Scope<Void> @:17673 op:2,dt:4,nt:8,next:17818,str:43657,d0:17675,d1:43135;
                 ("if", Expression<MethodOrOperator> @:17675 op:2,dt:2,nt:9,next:17676,str:456,d0:0,d1:0;
                     ("difficulty_normal", ScriptInvocation<Boolean> @:17676 op:6,dt:5,nt:10,next:17881,str:43667,d0:17677,d1:43137;
                         ("difficulty_normal", Expression<MethodOrOperator> @:17677 op:6,dt:2,nt:9,next:65535,str:18107,d0:0,d1:0;))
@@ -34,8 +34,68 @@
                                                     ("g_qz_cov_def_limit", VariableAccess<Short> @:17694 op:65535,dt:7,nt:13,next:17695,str:27352,d0:115,d1:0;
                                                         (6, Expression<Short> @:17695 op:7,dt:7,nt:9,next:65535,str:43818,d0:6,d1:65535;))))))
                                     (0, Expression<Void> @:17889 op:4,dt:4,nt:9,next:65535,str:43657,d0:0,d1:0;)))))))
-            (____, Scope<Void> @:17696 op:1,dt:4,nt:8,next:65535,str:43830,d0:17697,d1:43157;
-                ("begin_random", Expression<MethodOrOperator> @:17697 op:1,dt:2,nt:9,next:17698,str:19379,d0:0,d1:0;
+            //(____, Scope<Void> @:17696 op:1,dt:4,nt:8,next:65535,str:43830,d0:17697,d1:43157;
+            //    ("begin_random", Expression<MethodOrOperator> @:17697 op:1,dt:2,nt:9,next:17698,str:19379,d0:0,d1:0;
+                    (____, Scope<Void> @:17818 op:2,dt:4,nt:8,next:17848,str:44767,d0:17819,d1:43279;
+                        ("if", Expression<MethodOrOperator> @:17819 op:2,dt:2,nt:9,next:17820,str:456,d0:0,d1:0;
+                            ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17820 op:5,dt:5,nt:13,next:17821,str:27371,d0:114,d1:0;
+                                (____, Scope<Void> @:17821 op:0,dt:4,nt:8,next:65535,str:44794,d0:17822,d1:43282;
+                                    ("begin", Expression<MethodOrOperator> @:17822 op:0,dt:2,nt:9,next:17823,str:1,d0:0,d1:0;
+                                        (____, Scope<Void> @:17823 op:4,dt:4,nt:8,next:17830,str:44806,d0:17824,d1:43284;
+                                            ("set", Expression<MethodOrOperator> @:17824 op:4,dt:2,nt:9,next:17825,str:2613,d0:0,d1:0;
+                                                ("g_qz_cov_def_count", VariableAccess<Short> @:17825 op:65535,dt:7,nt:13,next:17826,str:27390,d0:116,d1:0;
+                                                    (____, Scope<Short> @:17826 op:7,dt:7,nt:8,next:65535,str:44830,d0:17827,d1:43287;
+                                                        ("+", Expression<MethodOrOperator> @:17827 op:7,dt:2,nt:9,next:17828,str:983,d0:0,d1:0;
+                                                            ("g_qz_cov_def_count", VariableAccess<Float> @:17828 op:6,dt:6,nt:13,next:17829,str:27390,d0:116,d1:0;
+                                                                (1f, Expression<Float> @:17829 op:6,dt:6,nt:9,next:65535,str:44852,d0:0,d1:16256;)))))))
+                                        ("qz_cov_def_ag", ScriptInvocation<Void> @:17830 op:354,dt:4,nt:10,next:17832,str:44861,d0:17831,d1:43291;
+                                            ("qz_cov_def_ag", Expression<MethodOrOperator> @:17831 op:354,dt:2,nt:9,next:65535,str:27469,d0:0,d1:0;))
+                                        (____, Scope<Void> @:17832 op:2,dt:4,nt:8,next:17842,str:44882,d0:17833,d1:43293;
+                                            ("if", Expression<MethodOrOperator> @:17833 op:2,dt:2,nt:9,next:17834,str:456,d0:0,d1:0;
+                                                (____, Scope<Boolean> @:17834 op:13,dt:5,nt:8,next:17838,str:44886,d0:17835,d1:43295;
+                                                    ("=", Expression<MethodOrOperator> @:17835 op:13,dt:2,nt:9,next:17836,str:296,d0:0,d1:0;
+                                                        ("g_qz_cov_def_count", VariableAccess<Short> @:17836 op:0,dt:7,nt:13,next:17837,str:27390,d0:116,d1:0;
+                                                            ("g_qz_cov_def_limit", VariableAccess<Short> @:17837 op:7,dt:7,nt:13,next:65535,str:27352,d0:115,d1:0;))))
+                                                (____, Scope<Void> @:17838 op:4,dt:4,nt:8,next:65535,str:44928,d0:17839,d1:43299;
+                                                    ("set", Expression<MethodOrOperator> @:17839 op:4,dt:2,nt:9,next:17840,str:2613,d0:0,d1:0;
+                                                        ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17840 op:65535,dt:5,nt:13,next:17841,str:27371,d0:114,d1:0;
+                                                            (False, Expression<Boolean> @:17841 op:5,dt:5,nt:9,next:65535,str:44952,d0:65280,d1:65535;))))))
+                                        (____, Scope<Void> @:17842 op:19,dt:4,nt:8,next:65535,str:44961,d0:17843,d1:43303;
+                                            ("sleep", Expression<MethodOrOperator> @:17843 op:19,dt:2,nt:9,next:17844,str:80,d0:0,d1:0;
+                                                (____, Scope<Short> @:17844 op:9,dt:7,nt:8,next:65535,str:44968,d0:17845,d1:43305;
+                                                    ("*", Expression<MethodOrOperator> @:17845 op:9,dt:2,nt:9,next:17846,str:981,d0:0,d1:0;
+                                                        (30f, Expression<Float> @:17846 op:6,dt:6,nt:9,next:17847,str:44971,d0:0,d1:16880;
+                                                            (10f, Expression<Float> @:17847 op:6,dt:6,nt:9,next:65535,str:44974,d0:0,d1:16672;)))))))))))
+                    (____, Scope<Void> @:17848 op:2,dt:4,nt:8,next:17698,str:44995,d0:17849,d1:43309;
+                        ("if", Expression<MethodOrOperator> @:17849 op:2,dt:2,nt:9,next:17850,str:456,d0:0,d1:0;
+                            ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17850 op:5,dt:5,nt:13,next:17851,str:27371,d0:114,d1:0;
+                                (____, Scope<Void> @:17851 op:0,dt:4,nt:8,next:65535,str:45022,d0:17852,d1:43312;
+                                    ("begin", Expression<MethodOrOperator> @:17852 op:0,dt:2,nt:9,next:17853,str:1,d0:0,d1:0;
+                                        (____, Scope<Void> @:17853 op:4,dt:4,nt:8,next:17860,str:45034,d0:17854,d1:43314;
+                                            ("set", Expression<MethodOrOperator> @:17854 op:4,dt:2,nt:9,next:17855,str:2613,d0:0,d1:0;
+                                                ("g_qz_cov_def_count", VariableAccess<Short> @:17855 op:65535,dt:7,nt:13,next:17856,str:27390,d0:116,d1:0;
+                                                    (____, Scope<Short> @:17856 op:7,dt:7,nt:8,next:65535,str:45058,d0:17857,d1:43317;
+                                                        ("+", Expression<MethodOrOperator> @:17857 op:7,dt:2,nt:9,next:17858,str:983,d0:0,d1:0;
+                                                            ("g_qz_cov_def_count", VariableAccess<Float> @:17858 op:6,dt:6,nt:13,next:17859,str:27390,d0:116,d1:0;
+                                                                (1f, Expression<Float> @:17859 op:6,dt:6,nt:9,next:65535,str:45080,d0:0,d1:16256;)))))))
+                                        ("qz_cov_def_d", ScriptInvocation<Void> @:17860 op:355,dt:4,nt:10,next:17862,str:45089,d0:17861,d1:43321;
+                                            ("qz_cov_def_d", Expression<MethodOrOperator> @:17861 op:355,dt:2,nt:9,next:65535,str:27483,d0:0,d1:0;))
+                                        (____, Scope<Void> @:17862 op:2,dt:4,nt:8,next:17872,str:45109,d0:17863,d1:43323;
+                                            ("if", Expression<MethodOrOperator> @:17863 op:2,dt:2,nt:9,next:17864,str:456,d0:0,d1:0;
+                                                (____, Scope<Boolean> @:17864 op:13,dt:5,nt:8,next:17868,str:45113,d0:17865,d1:43325;
+                                                    ("=", Expression<MethodOrOperator> @:17865 op:13,dt:2,nt:9,next:17866,str:296,d0:0,d1:0;
+                                                        ("g_qz_cov_def_count", VariableAccess<Short> @:17866 op:0,dt:7,nt:13,next:17867,str:27390,d0:116,d1:0;
+                                                            ("g_qz_cov_def_limit", VariableAccess<Short> @:17867 op:7,dt:7,nt:13,next:65535,str:27352,d0:115,d1:0;))))
+                                                (____, Scope<Void> @:17868 op:4,dt:4,nt:8,next:65535,str:45155,d0:17869,d1:43329;
+                                                    ("set", Expression<MethodOrOperator> @:17869 op:4,dt:2,nt:9,next:17870,str:2613,d0:0,d1:0;
+                                                        ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17870 op:65535,dt:5,nt:13,next:17871,str:27371,d0:114,d1:0;
+                                                            (False, Expression<Boolean> @:17871 op:5,dt:5,nt:9,next:65535,str:45179,d0:65280,d1:65535;))))))
+                                        (____, Scope<Void> @:17872 op:19,dt:4,nt:8,next:65535,str:45188,d0:17873,d1:43333;
+                                            ("sleep", Expression<MethodOrOperator> @:17873 op:19,dt:2,nt:9,next:17874,str:80,d0:0,d1:0;
+                                                (____, Scope<Short> @:17874 op:9,dt:7,nt:8,next:65535,str:45195,d0:17875,d1:43335;
+                                                    ("*", Expression<MethodOrOperator> @:17875 op:9,dt:2,nt:9,next:17876,str:981,d0:0,d1:0;
+                                                        (30f, Expression<Float> @:17876 op:6,dt:6,nt:9,next:17877,str:45198,d0:0,d1:16880;
+                                                            (10f, Expression<Float> @:17877 op:6,dt:6,nt:9,next:65535,str:45201,d0:0,d1:16672;))))))))))
                     (____, Scope<Void> @:17698 op:2,dt:4,nt:8,next:17728,str:43847,d0:17699,d1:43159;
                         ("if", Expression<MethodOrOperator> @:17699 op:2,dt:2,nt:9,next:17700,str:456,d0:0,d1:0;
                             ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17700 op:5,dt:5,nt:13,next:17701,str:27371,d0:114,d1:0;
@@ -126,7 +186,7 @@
                                                     ("*", Expression<MethodOrOperator> @:17785 op:9,dt:2,nt:9,next:17786,str:981,d0:0,d1:0;
                                                         (30f, Expression<Float> @:17786 op:6,dt:6,nt:9,next:17787,str:44510,d0:0,d1:16880;
                                                             (10f, Expression<Float> @:17787 op:6,dt:6,nt:9,next:65535,str:44513,d0:0,d1:16672;)))))))))))
-                    (____, Scope<Void> @:17788 op:2,dt:4,nt:8,next:17818,str:44534,d0:17789,d1:43249;
+                    (____, Scope<Void> @:17788 op:2,dt:4,nt:8,next:65535,str:44534,d0:17789,d1:43249;
                         ("if", Expression<MethodOrOperator> @:17789 op:2,dt:2,nt:9,next:17790,str:456,d0:0,d1:0;
                             ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17790 op:5,dt:5,nt:13,next:17791,str:27371,d0:114,d1:0;
                                 (____, Scope<Void> @:17791 op:0,dt:4,nt:8,next:65535,str:44561,d0:17792,d1:43252;
@@ -155,64 +215,4 @@
                                                 (____, Scope<Short> @:17814 op:9,dt:7,nt:8,next:65535,str:44736,d0:17815,d1:43275;
                                                     ("*", Expression<MethodOrOperator> @:17815 op:9,dt:2,nt:9,next:17816,str:981,d0:0,d1:0;
                                                         (30f, Expression<Float> @:17816 op:6,dt:6,nt:9,next:17817,str:44739,d0:0,d1:16880;
-                                                            (10f, Expression<Float> @:17817 op:6,dt:6,nt:9,next:65535,str:44742,d0:0,d1:16672;)))))))))))
-                    (____, Scope<Void> @:17818 op:2,dt:4,nt:8,next:17848,str:44767,d0:17819,d1:43279;
-                        ("if", Expression<MethodOrOperator> @:17819 op:2,dt:2,nt:9,next:17820,str:456,d0:0,d1:0;
-                            ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17820 op:5,dt:5,nt:13,next:17821,str:27371,d0:114,d1:0;
-                                (____, Scope<Void> @:17821 op:0,dt:4,nt:8,next:65535,str:44794,d0:17822,d1:43282;
-                                    ("begin", Expression<MethodOrOperator> @:17822 op:0,dt:2,nt:9,next:17823,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:17823 op:4,dt:4,nt:8,next:17830,str:44806,d0:17824,d1:43284;
-                                            ("set", Expression<MethodOrOperator> @:17824 op:4,dt:2,nt:9,next:17825,str:2613,d0:0,d1:0;
-                                                ("g_qz_cov_def_count", VariableAccess<Short> @:17825 op:65535,dt:7,nt:13,next:17826,str:27390,d0:116,d1:0;
-                                                    (____, Scope<Short> @:17826 op:7,dt:7,nt:8,next:65535,str:44830,d0:17827,d1:43287;
-                                                        ("+", Expression<MethodOrOperator> @:17827 op:7,dt:2,nt:9,next:17828,str:983,d0:0,d1:0;
-                                                            ("g_qz_cov_def_count", VariableAccess<Float> @:17828 op:6,dt:6,nt:13,next:17829,str:27390,d0:116,d1:0;
-                                                                (1f, Expression<Float> @:17829 op:6,dt:6,nt:9,next:65535,str:44852,d0:0,d1:16256;)))))))
-                                        ("qz_cov_def_ag", ScriptInvocation<Void> @:17830 op:354,dt:4,nt:10,next:17832,str:44861,d0:17831,d1:43291;
-                                            ("qz_cov_def_ag", Expression<MethodOrOperator> @:17831 op:354,dt:2,nt:9,next:65535,str:27469,d0:0,d1:0;))
-                                        (____, Scope<Void> @:17832 op:2,dt:4,nt:8,next:17842,str:44882,d0:17833,d1:43293;
-                                            ("if", Expression<MethodOrOperator> @:17833 op:2,dt:2,nt:9,next:17834,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:17834 op:13,dt:5,nt:8,next:17838,str:44886,d0:17835,d1:43295;
-                                                    ("=", Expression<MethodOrOperator> @:17835 op:13,dt:2,nt:9,next:17836,str:296,d0:0,d1:0;
-                                                        ("g_qz_cov_def_count", VariableAccess<Short> @:17836 op:0,dt:7,nt:13,next:17837,str:27390,d0:116,d1:0;
-                                                            ("g_qz_cov_def_limit", VariableAccess<Short> @:17837 op:7,dt:7,nt:13,next:65535,str:27352,d0:115,d1:0;))))
-                                                (____, Scope<Void> @:17838 op:4,dt:4,nt:8,next:65535,str:44928,d0:17839,d1:43299;
-                                                    ("set", Expression<MethodOrOperator> @:17839 op:4,dt:2,nt:9,next:17840,str:2613,d0:0,d1:0;
-                                                        ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17840 op:65535,dt:5,nt:13,next:17841,str:27371,d0:114,d1:0;
-                                                            (False, Expression<Boolean> @:17841 op:5,dt:5,nt:9,next:65535,str:44952,d0:65280,d1:65535;))))))
-                                        (____, Scope<Void> @:17842 op:19,dt:4,nt:8,next:65535,str:44961,d0:17843,d1:43303;
-                                            ("sleep", Expression<MethodOrOperator> @:17843 op:19,dt:2,nt:9,next:17844,str:80,d0:0,d1:0;
-                                                (____, Scope<Short> @:17844 op:9,dt:7,nt:8,next:65535,str:44968,d0:17845,d1:43305;
-                                                    ("*", Expression<MethodOrOperator> @:17845 op:9,dt:2,nt:9,next:17846,str:981,d0:0,d1:0;
-                                                        (30f, Expression<Float> @:17846 op:6,dt:6,nt:9,next:17847,str:44971,d0:0,d1:16880;
-                                                            (10f, Expression<Float> @:17847 op:6,dt:6,nt:9,next:65535,str:44974,d0:0,d1:16672;)))))))))))
-                    (____, Scope<Void> @:17848 op:2,dt:4,nt:8,next:65535,str:44995,d0:17849,d1:43309;
-                        ("if", Expression<MethodOrOperator> @:17849 op:2,dt:2,nt:9,next:17850,str:456,d0:0,d1:0;
-                            ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17850 op:5,dt:5,nt:13,next:17851,str:27371,d0:114,d1:0;
-                                (____, Scope<Void> @:17851 op:0,dt:4,nt:8,next:65535,str:45022,d0:17852,d1:43312;
-                                    ("begin", Expression<MethodOrOperator> @:17852 op:0,dt:2,nt:9,next:17853,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:17853 op:4,dt:4,nt:8,next:17860,str:45034,d0:17854,d1:43314;
-                                            ("set", Expression<MethodOrOperator> @:17854 op:4,dt:2,nt:9,next:17855,str:2613,d0:0,d1:0;
-                                                ("g_qz_cov_def_count", VariableAccess<Short> @:17855 op:65535,dt:7,nt:13,next:17856,str:27390,d0:116,d1:0;
-                                                    (____, Scope<Short> @:17856 op:7,dt:7,nt:8,next:65535,str:45058,d0:17857,d1:43317;
-                                                        ("+", Expression<MethodOrOperator> @:17857 op:7,dt:2,nt:9,next:17858,str:983,d0:0,d1:0;
-                                                            ("g_qz_cov_def_count", VariableAccess<Float> @:17858 op:6,dt:6,nt:13,next:17859,str:27390,d0:116,d1:0;
-                                                                (1f, Expression<Float> @:17859 op:6,dt:6,nt:9,next:65535,str:45080,d0:0,d1:16256;)))))))
-                                        ("qz_cov_def_d", ScriptInvocation<Void> @:17860 op:355,dt:4,nt:10,next:17862,str:45089,d0:17861,d1:43321;
-                                            ("qz_cov_def_d", Expression<MethodOrOperator> @:17861 op:355,dt:2,nt:9,next:65535,str:27483,d0:0,d1:0;))
-                                        (____, Scope<Void> @:17862 op:2,dt:4,nt:8,next:17872,str:45109,d0:17863,d1:43323;
-                                            ("if", Expression<MethodOrOperator> @:17863 op:2,dt:2,nt:9,next:17864,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:17864 op:13,dt:5,nt:8,next:17868,str:45113,d0:17865,d1:43325;
-                                                    ("=", Expression<MethodOrOperator> @:17865 op:13,dt:2,nt:9,next:17866,str:296,d0:0,d1:0;
-                                                        ("g_qz_cov_def_count", VariableAccess<Short> @:17866 op:0,dt:7,nt:13,next:17867,str:27390,d0:116,d1:0;
-                                                            ("g_qz_cov_def_limit", VariableAccess<Short> @:17867 op:7,dt:7,nt:13,next:65535,str:27352,d0:115,d1:0;))))
-                                                (____, Scope<Void> @:17868 op:4,dt:4,nt:8,next:65535,str:45155,d0:17869,d1:43329;
-                                                    ("set", Expression<MethodOrOperator> @:17869 op:4,dt:2,nt:9,next:17870,str:2613,d0:0,d1:0;
-                                                        ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:17870 op:65535,dt:5,nt:13,next:17871,str:27371,d0:114,d1:0;
-                                                            (False, Expression<Boolean> @:17871 op:5,dt:5,nt:9,next:65535,str:45179,d0:65280,d1:65535;))))))
-                                        (____, Scope<Void> @:17872 op:19,dt:4,nt:8,next:65535,str:45188,d0:17873,d1:43333;
-                                            ("sleep", Expression<MethodOrOperator> @:17873 op:19,dt:2,nt:9,next:17874,str:80,d0:0,d1:0;
-                                                (____, Scope<Short> @:17874 op:9,dt:7,nt:8,next:65535,str:45195,d0:17875,d1:43335;
-                                                    ("*", Expression<MethodOrOperator> @:17875 op:9,dt:2,nt:9,next:17876,str:981,d0:0,d1:0;
-                                                        (30f, Expression<Float> @:17876 op:6,dt:6,nt:9,next:17877,str:45198,d0:0,d1:16880;
-                                                            (10f, Expression<Float> @:17877 op:6,dt:6,nt:9,next:65535,str:45201,d0:0,d1:16672;))))))))))))))))
+                                                            (10f, Expression<Float> @:17817 op:6,dt:6,nt:9,next:65535,str:44742,d0:0,d1:16672;)))))))))))))))))
