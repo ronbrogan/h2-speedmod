@@ -1,5 +1,5 @@
 
-("lab_wave_new_02", Scope<Void> @:0 op:0,dt:0,nt:0,next:9234,str:0,d0:0,d1:0;
+("lab_wave_new_02", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:9234,str:0,d0:0,d1:0;
     (____, Scope<Void> @:9234 op:0,dt:4,nt:8,next:65535,str:34118,d0:9235,d1:34695;
         ("begin", Expression<MethodOrOperator> @:9235 op:0,dt:2,nt:9,next:9206,str:210,d0:0,d1:0;
             (____, Scope<Void> @:9206 op:21,dt:4,nt:8,next:65535,str:34152,d0:9207,d1:34667;

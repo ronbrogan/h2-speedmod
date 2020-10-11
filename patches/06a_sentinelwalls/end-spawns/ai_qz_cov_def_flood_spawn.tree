@@ -1,5 +1,5 @@
 
-("ai_qz_cov_def_flood_spawn", Scope<Void> @:0 op:0,dt:0,nt:0,next:17878,str:0,d0:0,d1:0;
+("ai_qz_cov_def_flood_spawn", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:17878,str:0,d0:0,d1:0;
     (____, Scope<Void> @:17878 op:0,dt:4,nt:8,next:65535,str:43613,d0:17879,d1:43339;
         ("begin", Expression<MethodOrOperator> @:17879 op:0,dt:2,nt:9,next:17673,str:1,d0:0,d1:0;
             // Bypass begin_random, makes spawns deterministic

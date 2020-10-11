@@ -1,5 +1,5 @@
 
-("flood_lab_start", Scope<Void> @:0 op:0,dt:0,nt:0,next:9861,str:0,d0:0,d1:0;
+("flood_lab_start", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:9861,str:0,d0:0,d1:0;
     (____, Scope<Void> @:9861 op:0,dt:4,nt:8,next:65535,str:34393,d0:9862,d1:35322;
         ("begin", Expression<MethodOrOperator> @:9862 op:0,dt:2,nt:9,next:9240,str:210,d0:0,d1:0;
             (____, Scope<Void> @:9240 op:21,dt:4,nt:8,next:9250,str:34427,d0:9241,d1:34701;

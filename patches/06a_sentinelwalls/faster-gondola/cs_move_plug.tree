@@ -1,5 +1,5 @@
 
-("cs_move_plug", Scope<Void> @:0 op:0,dt:0,nt:0,next:12480,str:0,d0:0,d1:0;
+("cs_move_plug", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:12480,str:0,d0:0,d1:0;
     (____, Scope<Void> @:12480 op:0,dt:4,nt:8,next:65535,str:58905,d0:12481,d1:37941;
         ("begin", Expression<MethodOrOperator> @:12481 op:0,dt:2,nt:9,next:12081,str:1,d0:0,d1:0;
             (____, Scope<Void> @:12081 op:22,dt:4,nt:8,next:12084,str:58936,d0:12082,d1:37542;

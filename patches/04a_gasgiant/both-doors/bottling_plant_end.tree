@@ -1,5 +1,5 @@
 
-("bottling_plant_end", Scope<Void> @:0 op:0,dt:0,nt:0,next:16730,str:0,d0:0,d1:0;
+("bottling_plant_end", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:16730,str:0,d0:0,d1:0;
     (____, Scope<Void> @:16730 op:0,dt:4,nt:8,next:65535,str:55311,d0:16731,d1:42191;
         ("begin", Expression<MethodOrOperator> @:16731 op:0,dt:2,nt:9,next:16480,str:6,d0:0,d1:0;
             (____, Scope<Void> @:16480 op:21,dt:4,nt:8,next:16490,str:55348,d0:16481,d1:41941;

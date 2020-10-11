@@ -1,5 +1,5 @@
 
-("elev_under_monitor", Scope<Void> @:0 op:0,dt:0,nt:0,next:9899,str:0,d0:0,d1:0;
+("elev_under_monitor", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:9899,str:0,d0:0,d1:0;
     (____, Scope<Void> @:9899 op:0,dt:4,nt:8,next:65535,str:39860,d0:9900,d1:35360;
         ("begin", Expression<MethodOrOperator> @:9900 op:0,dt:2,nt:9,next:9474,str:142,d0:0,d1:0;
             (____, Scope<Void> @:9474 op:21,dt:4,nt:8,next:9482,str:39897,d0:9475,d1:34935;

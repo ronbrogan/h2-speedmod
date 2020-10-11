@@ -1,5 +1,5 @@
 
-("e7_scarab_main", Scope<Void> @:0 op:0,dt:0,nt:0,next:16949,str:0,d0:0,d1:0;
+("e7_scarab_main", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:16949,str:0,d0:0,d1:0;
     (____, Scope<Void> @:16949 op:0,dt:4,nt:8,next:65535,str:16100,d0:16950,d1:42410;
         ("begin", Expression<MethodOrOperator> @:16950 op:0,dt:2,nt:9,next:16749,str:6,d0:0,d1:0;
             (____, Scope<Void> @:16749 op:469,dt:4,nt:8,next:16752,str:16133,d0:16750,d1:42210;
@@ -186,7 +186,7 @@
             (____, Scope<Void> @:16930 op:22,dt:4,nt:8,next:16933,str:18058,d0:16931,d1:42391;
                 ("wake", Expression<MethodOrOperator> @:16931 op:22,dt:2,nt:9,next:16932,str:5851,d0:0,d1:0;
                     // Wake e13 instead of e8
-                    ("e13_main", Expression<ScriptReference> @:16932 op:10,dt:10,nt:9,next:65535,str:26325,d0:423,d1:65535;)))
+                    ("e13_main", Expression<ScriptReference> @:16932 op:10,dt:10,nt:9,next:65535,str:26325,d0:339,d1:65535;)))
             (____, Scope<Void> @:16933 op:450,dt:4,nt:8,next:16936,str:18089,d0:16934,d1:42394;
                 ("camera_control", Expression<MethodOrOperator> @:16934 op:450,dt:2,nt:9,next:16935,str:45,d0:0,d1:0;
                     (False, Expression<Boolean> @:16935 op:5,dt:5,nt:9,next:65535,str:18105,d0:65280,d1:65535;)))

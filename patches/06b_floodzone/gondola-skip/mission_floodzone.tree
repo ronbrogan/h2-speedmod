@@ -1,5 +1,5 @@
 
-("mission_floodzone", Scope<Void> @:0 op:0,dt:0,nt:0,next:13912,str:0,d0:0,d1:0;
+("mission_floodzone", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:13912,str:0,d0:0,d1:0;
     (____, Scope<Void> @:13912 op:0,dt:4,nt:8,next:65535,str:32811,d0:13913,d1:39373;
         ("begin", Expression<MethodOrOperator> @:13913 op:0,dt:2,nt:9,next:13756,str:6,d0:0,d1:0;
             ("cinematic_snap_to_white", ScriptInvocation<Void> @:13756 op:16,dt:4,nt:10,next:13758,str:32847,d0:13757,d1:39217;

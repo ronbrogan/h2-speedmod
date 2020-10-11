@@ -1,5 +1,5 @@
 
-("cable_c_health", Scope<Void> @:0 op:0,dt:0,nt:0,next:14504,str:0,d0:0,d1:0;
+("cable_c_health", MethodDecl<Void> @:0 op:0,dt:0,nt:65535,next:14504,str:0,d0:0,d1:0;
     (____, Scope<Void> @:14504 op:0,dt:4,nt:8,next:65535,str:19867,d0:14505,d1:39965;
         ("begin", Expression<MethodOrOperator> @:14505 op:0,dt:2,nt:9,next:14113,str:210,d0:0,d1:0;
             (____, Scope<Void> @:14113 op:21,dt:4,nt:8,next:14122,str:19900,d0:14114,d1:39574;
