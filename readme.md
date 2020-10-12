@@ -3,18 +3,18 @@ This repo contains script patches that remove the boring parts of the game
 
 ## Changes
  - [Cairo] Resets marine aggression at the start of hangar 1 fight
- - [Arbiter] Opens both doors at the end
+ - [Arbiter] [Opens both doors at the end](https://www.youtube.com/watch?v=-hCa-Cgu7ew)
  - [Oracle] Turns off kill volume below elevator
  - [Oracle] Removes 1 minute timer during lab fight
  - [Oracle] Reduces delay for airlock after lab fight
- - [Oracle] Removes the delay between cutting the three cables
+ - [Oracle] [Removes the delay between cutting the three cables](https://www.youtube.com/watch?v=MBtXdP7CaBU)
  - [Oracle] Removes the pointless outdoor banshee section
  - [Regret] Speeds up underwater elevators by 2x
  - [Regret] Skips gondola 2
- - [Sacred Icon] Speeds up gap gondola by 2x
+ - [Sacred Icon] [Speeds up gap gondola by 2x](https://www.youtube.com/watch?v=UhR3NBcD0vo)
  - [Sacred Icon] Makes end flood spawns non-random, higher difficulties still spawn more waves
  - [Quarantine Zone] Skips end gondola ride
- - [Gravemind] Automatic prison skip
+ - [Gravemind] [Automatic prison skip](https://www.youtube.com/watch?v=XMUxfDEvqoA)
  - [High Charity] Prevent HC skip, requires starting final encounter to end the mission
  - [The Great Journey] Skip scarab section
 
