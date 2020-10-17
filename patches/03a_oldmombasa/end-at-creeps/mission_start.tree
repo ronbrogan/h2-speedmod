@@ -17,11 +17,11 @@
                     (1, Expression<Short> @:17699 op:7,dt:7,nt:9,next:65535,str:28516,d0:1,d1:65535;)))
             (____, Scope<Void> @:17700 op:897,dt:4,nt:8,next:17702,str:28521,d0:17701,d1:43161;
                 ("cache_block_for_one_frame", Expression<MethodOrOperator> @:17701 op:897,dt:2,nt:9,next:65535,str:29063,d0:0,d1:0;))
-            (____, Scope<Void> @:17702 op:19,dt:4,nt:8,next:17707,str:28551,d0:17703,d1:43163;
+            (____, Scope<Void> @:17702 op:19,dt:4,nt:8,next:17705,str:28551,d0:17703,d1:43163;
                 ("sleep", Expression<MethodOrOperator> @:17703 op:19,dt:2,nt:9,next:17704,str:143,d0:0,d1:0;
                     (1, Expression<Short> @:17704 op:7,dt:7,nt:9,next:65535,str:28558,d0:1,d1:65535;)))
-            //("chief_recovery_sequence", ScriptInvocation<Void> @:17705 op:119,dt:4,nt:10,next:17707,str:28563,d0:17706,d1:43166;
-            //    ("chief_recovery_sequence", Expression<MethodOrOperator> @:17706 op:119,dt:2,nt:9,next:65535,str:29089,d0:0,d1:0;))
+            ("chief_recovery_sequence", ScriptInvocation<Void> @:17705 op:119,dt:4,nt:10,next:17707,str:28563,d0:17706,d1:43166;
+                ("chief_recovery_sequence", Expression<MethodOrOperator> @:17706 op:119,dt:2,nt:9,next:65535,str:29089,d0:0,d1:0;))
             (____, Scope<Void> @:17707 op:22,dt:4,nt:8,next:17710,str:28620,d0:17708,d1:43168;
                 ("wake", Expression<MethodOrOperator> @:17708 op:22,dt:2,nt:9,next:17709,str:1129,d0:0,d1:0;
                     ("chapter_title0", Expression<ScriptReference> @:17709 op:10,dt:10,nt:9,next:65535,str:29113,d0:121,d1:65535;)))
