@@ -27,18 +27,19 @@
             (____, Scope<Void> @:14954 op:290,dt:4,nt:8,next:14957,str:53880,d0:14955,d1:40415;
                 ("ai_place", Expression<MethodOrOperator> @:14955 op:290,dt:2,nt:9,next:14956,str:16693,d0:0,d1:0;
                     ("bay1_cov_floor", Expression<AI> @:14956 op:19,dt:19,nt:9,next:65535,str:35421,d0:19,d1:16384;)))
-            (____, Scope<Void> @:14957 op:290,dt:4,nt:8,next:14960,str:53908,d0:14958,d1:40418;
-                ("ai_place", Expression<MethodOrOperator> @:14958 op:290,dt:2,nt:9,next:14959,str:16693,d0:0,d1:0;
-                    ("bay1_cov_catwalk", Expression<AI> @:14959 op:19,dt:19,nt:9,next:65535,str:35436,d0:17,d1:16384;)))
-            (____, Scope<Void> @:14960 op:27,dt:4,nt:8,next:14963,str:53938,d0:14961,d1:40421;
-                ("print", Expression<MethodOrOperator> @:14961 op:27,dt:2,nt:9,next:14962,str:96,d0:0,d1:0;
-                    ("hum bunker below", Expression<String> @:14962 op:9,dt:9,nt:9,next:65535,str:35453,d0:35453,d1:0;)))
-            (____, Scope<Void> @:14963 op:27,dt:4,nt:8,next:14966,str:53967,d0:14964,d1:40424;
-                ("print", Expression<MethodOrOperator> @:14964 op:27,dt:2,nt:9,next:14965,str:96,d0:0,d1:0;
-                    ("covenant turrets above", Expression<String> @:14965 op:9,dt:9,nt:9,next:65535,str:35470,d0:35470,d1:0;)))
-            (____, Scope<Void> @:14966 op:27,dt:4,nt:8,next:14969,str:54002,d0:14967,d1:40427;
-                ("print", Expression<MethodOrOperator> @:14967 op:27,dt:2,nt:9,next:14968,str:96,d0:0,d1:0;
-                    ("covenant infantry below", Expression<String> @:14968 op:9,dt:9,nt:9,next:65535,str:35493,d0:35493,d1:0;)))
+            // Need to make sure these nodes aren't in this patch, they're modified in the marine-aggro patch
+            //(____, Scope<Void> @:14957 op:290,dt:4,nt:8,next:14960,str:53908,d0:14958,d1:40418;
+            //    ("ai_place", Expression<MethodOrOperator> @:14958 op:290,dt:2,nt:9,next:14959,str:16693,d0:0,d1:0;
+            //        ("bay1_cov_catwalk", Expression<AI> @:14959 op:19,dt:19,nt:9,next:65535,str:35436,d0:17,d1:16384;)))
+            //(____, Scope<Void> @:14960 op:27,dt:4,nt:8,next:14963,str:53938,d0:14961,d1:40421;
+            //    ("print", Expression<MethodOrOperator> @:14961 op:27,dt:2,nt:9,next:14962,str:96,d0:0,d1:0;
+            //        ("hum bunker below", Expression<String> @:14962 op:9,dt:9,nt:9,next:65535,str:35453,d0:35453,d1:0;)))
+            //(____, Scope<Void> @:14963 op:27,dt:4,nt:8,next:14966,str:53967,d0:14964,d1:40424;
+            //    ("print", Expression<MethodOrOperator> @:14964 op:27,dt:2,nt:9,next:14965,str:96,d0:0,d1:0;
+            //        ("covenant turrets above", Expression<String> @:14965 op:9,dt:9,nt:9,next:65535,str:35470,d0:35470,d1:0;)))
+            //(____, Scope<Void> @:14966 op:27,dt:4,nt:8,next:14969,str:54002,d0:14967,d1:40427;
+            //    ("print", Expression<MethodOrOperator> @:14967 op:27,dt:2,nt:9,next:14968,str:96,d0:0,d1:0;
+            //        ("covenant infantry below", Expression<String> @:14968 op:9,dt:9,nt:9,next:65535,str:35493,d0:35493,d1:0;)))
             (____, Scope<Void> @:14969 op:21,dt:4,nt:8,next:14978,str:54040,d0:14970,d1:40430;
                 ("sleep_until", Expression<MethodOrOperator> @:14970 op:21,dt:2,nt:9,next:14971,str:241,d0:0,d1:0;
                     (____, Scope<Boolean> @:14971 op:18,dt:5,nt:8,next:14977,str:54053,d0:14972,d1:40432;

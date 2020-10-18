@@ -88,7 +88,8 @@
                                             (____, Scope<Short> @:16832 op:509,dt:7,nt:8,next:16834,str:16967,d0:16833,d1:42293;
                                                 ("structure_bsp_index", Expression<MethodOrOperator> @:16833 op:509,dt:2,nt:9,next:65535,str:27065,d0:0,d1:0;))
                                             (0, Expression<Short> @:16834 op:7,dt:7,nt:9,next:65535,str:16989,d0:0,d1:65535;)))
-                                    (____, Scope<Boolean> @:16835 op:25,dt:5,nt:8,next:16843,str:16997,d0:16836,d1:42296;
+                                    // Make the cutscene check not wait for game_safe_to_save
+                                    (____, Scope<Boolean> @:16835 op:25,dt:5,nt:8,next:65535,str:16997,d0:16836,d1:42296;
                                         ("not", Expression<MethodOrOperator> @:16836 op:25,dt:2,nt:9,next:16837,str:402,d0:0,d1:0;
                                             (____, Scope<Boolean> @:16837 op:33,dt:5,nt:8,next:65535,str:17002,d0:16838,d1:42298;
                                                 ("volume_test_objects", Expression<MethodOrOperator> @:16838 op:33,dt:2,nt:9,next:16839,str:4732,d0:0,d1:0;

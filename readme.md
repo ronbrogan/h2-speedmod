@@ -6,7 +6,7 @@ This repo contains script patches that remove the boring parts of the game
  - [Cairo] Allow progression from Hanger 1 and 2 before dialog is finished
  - [Outskirts] Remove blinking sequence at mission start
  - [Outskirts] End level at the beginning of the shadow encounter
- - [Metropolis] Skip bridge, spawn in tunnels before first wall
+ - [Metropolis] [Skip bridge, spawn in tunnels before first wall](https://youtu.be/0yjBsorlJAA)
  - [Metropolis] Fix scarab deload
  - [Metropolis] Make enemies spawn in scarab earlier
  - [Arbiter] Reduce first air lock delay
@@ -26,6 +26,7 @@ This repo contains script patches that remove the boring parts of the game
  - [Gravemind] Remove random delay in the council lift enemy spawn
  - [High Charity] Make trigger over slow lift check more frequently
  - [High Charity] Prevent HC skip, requires starting final encounter to end the mission
+ - [The Great Journey] Remove `game_safe_to_save` check for scarab cutscene to start
  - [The Great Journey] Skip scarab section
 
 ## Applying the patches
