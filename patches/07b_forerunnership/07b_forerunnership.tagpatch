@@ -1,0 +1,130 @@
+[
+    {
+        "TagName": "scenarios\\solo\\07b_forerunnership\\07b_forerunnership.scnr",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].PrimaryWeapon",
+                "Value": "objects\\weapons\\melee\\energy_blade\\energy_blade.weap"
+            },
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].PrimaryWeaponLoadedAmmo",
+                "Value": 100
+            },
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].PrimaryWeaponTotalAmmo",
+                "Value": 100
+            },
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeapon",
+                "Value": "objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher.weap"
+            },
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponLoadedAmmo",
+                "Value": 2
+            },
+            {
+                "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponTotalAmmo",
+                "Value": 8
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_jail_lift\\high_jail_lift.phmo",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "MoverParameters[0].DeltaVelocity",
+                "Value": 40
+            },
+            {
+                "PropertySelector": "MoverParameters[0].MaxVelocity",
+                "Value": 10
+            },
+            {
+                "PropertySelector": "MoverParameters[1].DeltaVelocity",
+                "Value": 80
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_jail_lift\\high_jail_lift.mach",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "PositionChangeRate",
+                "Value": 60
+            },
+            {
+                "PropertySelector": "UnknownChangeRate",
+                "Value": 80
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_lift_long\\high_lift_long.phmo",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "MoverParameters[0].DeltaVelocity",
+                "Value": 60
+            },
+            {
+                "PropertySelector": "MoverParameters[0].MaxVelocity",
+                "Value": 20
+            },
+            {
+                "PropertySelector": "MoverParameters[1].DeltaVelocity",
+                "Value": 60
+            },
+            {
+                "PropertySelector": "MoverParameters[1].MaxVelocity",
+                "Value": 20
+            },
+            {
+                "PropertySelector": "MoverParameters[2].DeltaVelocity",
+                "Value": 120
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_lift_long\\high_lift_long.mach",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "PositionChangeRate",
+                "Value": 60
+            },
+            {
+                "PropertySelector": "UnknownChangeRate",
+                "Value": 120
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_sanctum_lift\\high_sanctum_lift.mach",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "PositionChangeRate",
+                "Value": 0.15
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\high_door\\high_door.mach",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "PositionChangeRate",
+                "Value": 7.5
+            }
+        ]
+    },
+    {
+        "TagName": "scenarios\\objects\\solo\\highcharity\\maus_platform_a\\maus_platform_a.mach",
+        "PropertyPatches": [
+            {
+                "PropertySelector": "PositionChangeRate",
+                "Value": 0.3
+            },
+            {
+                "PropertySelector": "UnknownChangeRate",
+                "Value": 40
+            }
+        ]
+    }
+]

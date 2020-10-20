@@ -1,0 +1,29 @@
+[{
+	"TagName": "scenarios\\solo\\01b_spacestation\\01b_spacestation.scnr",
+	"PropertyPatches": [
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].PrimaryWeapon",
+			"Value": "objects\\weapons\\melee\\energy_blade\\energy_blade.weap"
+		},
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].PrimaryWeaponLoadedAmmo",
+			"Value": 100
+		},
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].PrimaryWeaponTotalAmmo",
+			"Value": 100
+		},
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].SecondaryWeapon",
+			"Value": "objects\\weapons\\rifle\\battle_rifle\\battle_rifle.weap"
+		},
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponLoadedAmmo",
+			"Value": 36
+		},
+		{
+			"PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponTotalAmmo",
+			"Value": 144
+		}
+	]
+}]
