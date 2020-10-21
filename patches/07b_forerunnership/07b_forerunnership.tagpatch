@@ -29,6 +29,15 @@
         ]
     },
     {
+        "TagName": "objects\\weapons\\melee\\energy_blade\\energy_blade.weap",
+        "BinaryPatches": [
+            {
+                "RelativeOffset": 300,
+                "Data": "00080001" // TODO: figure out these flags
+            }
+        ]
+    },
+    {
         "TagName": "scenarios\\objects\\solo\\highcharity\\high_jail_lift\\high_jail_lift.phmo",
         "PropertyPatches": [
             {
@@ -55,6 +64,10 @@
             {
                 "PropertySelector": "UnknownChangeRate",
                 "Value": 80
+            },
+            {
+                "PropertySelector": "ActivationRange",
+                "Value": 10
             }
         ]
     },
@@ -63,19 +76,19 @@
         "PropertyPatches": [
             {
                 "PropertySelector": "MoverParameters[0].DeltaVelocity",
-                "Value": 60
+                "Value": 15
             },
             {
                 "PropertySelector": "MoverParameters[0].MaxVelocity",
-                "Value": 20
+                "Value": 30
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 60
+                "Value": 5
             },
             {
                 "PropertySelector": "MoverParameters[1].MaxVelocity",
-                "Value": 20
+                "Value": 10
             },
             {
                 "PropertySelector": "MoverParameters[2].DeltaVelocity",
@@ -93,6 +106,10 @@
             {
                 "PropertySelector": "UnknownChangeRate",
                 "Value": 120
+            },
+            {
+                "PropertySelector": "ActivationRange",
+                "Value": 10
             }
         ]
     },
@@ -119,7 +136,7 @@
         "PropertyPatches": [
             {
                 "PropertySelector": "PositionChangeRate",
-                "Value": 0.3
+                "Value": 0.6
             },
             {
                 "PropertySelector": "UnknownChangeRate",
