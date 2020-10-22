@@ -30,10 +30,10 @@
     },
     {
         "TagName": "objects\\weapons\\melee\\energy_blade\\energy_blade.weap",
-        "BinaryPatches": [
+        "PropertyPatches": [
             {
-                "RelativeOffset": 300,
-                "Data": "00080001" // TODO: figure out these flags
+                "PropertySelector": "Flags",
+                "Value": 16779264 
             }
         ]
     },
@@ -46,7 +46,7 @@
             },
             {
                 "PropertySelector": "MoverParameters[0].MaxVelocity",
-                "Value": 10
+                "Value": 8
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
@@ -84,11 +84,11 @@
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 5
+                "Value": 10
             },
             {
                 "PropertySelector": "MoverParameters[1].MaxVelocity",
-                "Value": 10
+                "Value": 1
             },
             {
                 "PropertySelector": "MoverParameters[2].DeltaVelocity",
@@ -99,14 +99,6 @@
     {
         "TagName": "scenarios\\objects\\solo\\highcharity\\high_lift_long\\high_lift_long.mach",
         "PropertyPatches": [
-            {
-                "PropertySelector": "PositionChangeRate",
-                "Value": 60
-            },
-            {
-                "PropertySelector": "UnknownChangeRate",
-                "Value": 120
-            },
             {
                 "PropertySelector": "ActivationRange",
                 "Value": 10
@@ -136,7 +128,7 @@
         "PropertyPatches": [
             {
                 "PropertySelector": "PositionChangeRate",
-                "Value": 0.6
+                "Value": 1
             },
             {
                 "PropertySelector": "UnknownChangeRate",

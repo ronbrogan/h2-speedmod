@@ -26,4 +26,13 @@
 			"Value": 144
 		}
 	]
+},
+{
+	"TagName": "objects\\weapons\\melee\\energy_blade\\energy_blade.weap",
+	"PropertyPatches": [
+		{
+			"PropertySelector": "Flags",
+			"Value": 16779264 
+		}
+	]
 }]
