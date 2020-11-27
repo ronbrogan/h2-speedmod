@@ -1,5 +1,5 @@
 [{
-    "TagName": "scenarios\\solo\\01b_spacestation\\01b_spacestation.scnr",
+    "TagName": "scenarios\\solo\\03b_newmombasa\\03b_newmombasa.scnr",
     "PropertyPatches": [
         {
             "PropertySelector": "StartingProfileDefinitions[0].PrimaryWeapon",
@@ -15,15 +15,15 @@
         },
         {
             "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeapon",
-            "Value": "objects\\weapons\\rifle\\battle_rifle\\battle_rifle.weap"
+            "Value": "objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher.weap"
         },
         {
             "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponLoadedAmmo",
-            "Value": 36
+            "Value": 2
         },
         {
             "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponTotalAmmo",
-            "Value": 144
+            "Value": 8
         }
     ]
 },
