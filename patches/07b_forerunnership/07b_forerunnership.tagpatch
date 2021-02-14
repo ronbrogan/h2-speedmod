@@ -50,7 +50,19 @@
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 80
+                "Value": 2
+            },
+            {
+                "PropertySelector": "MoverParameters[1].MaxVelocity",
+                "Value": 2
+            },
+            {
+                "PropertySelector": "MoverParameters[1].ValueA",
+                "Value": 512
+            },
+            {
+                "PropertySelector": "MoverParameters[1].ValueB",
+                "Value": 512
             }
         ]
     },
@@ -84,15 +96,27 @@
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 10
+                "Value": 2
             },
             {
                 "PropertySelector": "MoverParameters[1].MaxVelocity",
-                "Value": 1
+                "Value": 2
             },
             {
                 "PropertySelector": "MoverParameters[2].DeltaVelocity",
-                "Value": 120
+                "Value": 2
+            },
+            {
+                "PropertySelector": "MoverParameters[2].MaxVelocity",
+                "Value": 2
+            },
+            {
+                "PropertySelector": "MoverParameters[2].ValueA",
+                "Value": 512
+            },
+            {
+                "PropertySelector": "MoverParameters[2].ValueB",
+                "Value": 512
             }
         ]
     },

@@ -10,21 +10,24 @@ This repo contains script patches that remove the boring parts of the game
  - [Metropolis] Fix scarab deload
  - [Metropolis] Make enemies spawn in scarab earlier
  - [Arbiter] Reduce first air lock delay
+ - [Arbiter] Spawn all 4 grunts after first air lock
  - [Arbiter] [Opens both doors at the end](https://www.youtube.com/watch?v=-hCa-Cgu7ew)
  - [Oracle] Turns off kill volume below elevator
  - [Oracle] Removes 1 minute timer during lab fight
  - [Oracle] Reduces delay for airlock after lab fight
  - [Oracle] [Removes the delay between cutting the three cables](https://www.youtube.com/watch?v=MBtXdP7CaBU)
  - [Oracle] Removes the pointless outdoor banshee section
+ - [Oracle] Removes boss fight cutscene
  - [Delta Halo] Make title fade out quicker to bring HUD up earlier
  - [Regret] Speeds up underwater elevators by 2x
  - [Regret] Skips gondola 2
  - [Sacred Icon] [Speeds up gap gondola by 2x](https://www.youtube.com/watch?v=UhR3NBcD0vo)
  - [Sacred Icon] Makes end flood spawns non-random, higher difficulties still spawn more waves
  - [Quarantine Zone] Skips end gondola ride
+ - [Quarantine Zone] Increases frequency of trigger check at the tunnel to the outdoor section
  - [Gravemind] [Automatic prison skip](https://www.youtube.com/watch?v=XMUxfDEvqoA)
  - [Gravemind] Remove random delay in the council lift enemy spawn
- - [High Charity] Make trigger over slow lift check more frequently
+ - [High Charity] Speeds up lifts/elevators significantly
  - [High Charity] Prevent HC skip, requires starting final encounter to end the mission
  - [The Great Journey] Remove `game_safe_to_save` check for scarab cutscene to start
  - [The Great Journey] Skip scarab section
