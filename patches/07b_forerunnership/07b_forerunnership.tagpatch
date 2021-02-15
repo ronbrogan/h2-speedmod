@@ -25,6 +25,10 @@
             {
                 "PropertySelector": "StartingProfileDefinitions[0].SecondaryWeaponTotalAmmo",
                 "Value": 8
+            },
+            {
+                "PropertySelector": "MachineryInstances[76].Position",
+                "Value": [475.02078, -171.99797, 98.7]
             }
         ]
     },
@@ -42,27 +46,27 @@
         "PropertyPatches": [
             {
                 "PropertySelector": "MoverParameters[0].DeltaVelocity",
-                "Value": 40
+                "Value": 20
             },
             {
                 "PropertySelector": "MoverParameters[0].MaxVelocity",
-                "Value": 8
+                "Value": 10
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 2
+                "Value": 5
             },
             {
                 "PropertySelector": "MoverParameters[1].MaxVelocity",
-                "Value": 2
+                "Value": 5
             },
             {
                 "PropertySelector": "MoverParameters[1].ValueA",
-                "Value": 512
+                "Value": 0
             },
             {
                 "PropertySelector": "MoverParameters[1].ValueB",
-                "Value": 512
+                "Value": 0
             }
         ]
     },
@@ -88,19 +92,27 @@
         "PropertyPatches": [
             {
                 "PropertySelector": "MoverParameters[0].DeltaVelocity",
-                "Value": 15
+                "Value": 10
             },
             {
                 "PropertySelector": "MoverParameters[0].MaxVelocity",
-                "Value": 30
+                "Value": 20
             },
             {
                 "PropertySelector": "MoverParameters[1].DeltaVelocity",
-                "Value": 2
+                "Value": -10
             },
             {
                 "PropertySelector": "MoverParameters[1].MaxVelocity",
-                "Value": 2
+                "Value": -10
+            },
+            {
+                "PropertySelector": "MoverParameters[1].ValueA",
+                "Value": 512
+            },
+            {
+                "PropertySelector": "MoverParameters[1].ValueB",
+                "Value": 512
             },
             {
                 "PropertySelector": "MoverParameters[2].DeltaVelocity",
@@ -112,11 +124,11 @@
             },
             {
                 "PropertySelector": "MoverParameters[2].ValueA",
-                "Value": 512
+                "Value": 0
             },
             {
                 "PropertySelector": "MoverParameters[2].ValueB",
-                "Value": 512
+                "Value": 0
             }
         ]
     },
